@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OKReagan Automotive</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="logo">🚗 OKReagan</div>
+
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <nav id="navMenu">
+        <a onclick="showSection('home')">Home</a>
+
+        <div class="dropdown">
+            <a class="dropbtn">Services ▾</a>
+            <div class="dropdown-content">
+                <a onclick="showSection('bumper')">Bumper Repair</a>
+                <a onclick="showSection('dent')">Paintless Dent Repair</a>
+                <a onclick="showSection('vin')">Finding Your VIN</a>
+            </div>
+        </div>
+
+        <a onclick="showSection('autobody')">Auto Body</a>
+        <a onclick="showSection('collision')">Collision Services</a>
+        <a onclick="showSection('reviews')">Reviews</a>
+        <a onclick="showSection('about')">About Us</a>
+        <a onclick="showSection('contact')">Contact Us</a>
+    </nav>
+</header>
+<section class="slider">
+    <div class="slide active" style="background-image: url('images/homepage-slide.jpg');">
+        <h1>🚗 Premium Auto Repair Services</h1>
+        <p>Trusted collision & body repair experts</p>
+    </div>
+
+    <div class="slide" style="background-image: url('images/homepage-slide2.jpg');">
+        <h1>🔧 Paintless Dent Repair</h1>
+        <p>Remove dents without repainting your car</p>
+    </div>
+
+    <div class="slide" style="background-image: url('images/homepage-slide3.jpg');">
+        <h1>🛠️ Complete Auto Body Care</h1>
+        <p>We bring your car back to showroom condition</p>
+    </div>
+    <div class="slide" style="background-image: url('images/homepage-slide4.jpg');">
+        <h1>🛠️ Complete Auto Body Care</h1>
+        <p>We bring your car back to showroom condition</p>
+    </div>
+    <div class="slide" style="background-image: url('images/homepage-slide5.jpg');">
+        <h1>🛠️ Complete Auto Body Care</h1>
+        <p>We bring your car back to showroom condition</p>
+    </div>
+</section>
+
+<main id="content">
+</main>
+
+<footer class="footer">
+    <div class="footer-container">
+
+        <div>
+            <h3>OKReagan 🚗</h3>
+            <p>Your trusted partner for auto repair, collision services, and body work.</p>
+        </div>
+
+        <div>
+            <h4>Quick Links</h4>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Reviews</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div>
+            <h4>Services</h4>
+            <a>Bumper Repair</a>
+            <a>Dent Repair</a>
+            <a>Auto Body</a>
+            <a>Collision Repair</a>
+        </div>
+
+        <div>
+            <h4>Contact</h4>
+            <p>Email: support@autoworld.com</p>
+            <p>Phone: +1 234 567 890</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 OKReagan. All rights reserved.</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
